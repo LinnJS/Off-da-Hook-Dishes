@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class Refactor extends Component {
+export default class Toggle extends Component {
     state = {
         isToggled: false
     };
@@ -15,7 +15,7 @@ export default class Refactor extends Component {
         return (
             <div>
                 <button onClick={this.toggle}>Toggle</button>
-                {this.state.isToggled && <h2>Hello!</h2>}
+                {this.state.isToggled && <h2>Off Da Hook Yo!</h2>}
             </div>
         );
     }
