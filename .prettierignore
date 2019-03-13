@@ -1,0 +1,17 @@
+*.ejs
+*.jpg
+*.json
+*.md
+*.pdf
+*.styl
+.DS_Store
+.dockerignore
+.gitignore
+.prettierignore
+Jenkinsfile
+Dockerfile
+
+app/content
+app/lib
+misc
+node_modules
